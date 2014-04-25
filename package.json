@@ -1,37 +1,38 @@
 {
-  "name": "phantom-html-snapshot",
-  "description": "Express HTML snapshots middleware",
-  "version": "0.0.3",
-  "maintainers": [
-    {
-      "name": "Jacques-Olivier D. Bernier",
-      "url": "https://github.com/jackdbernier"
-    }
-  ],
-  "contributors": [],
-  "keywords": [
-    "html snapshot",
-    "phantom"
-  ],
-  "dependencies": {
-    "phantomjs": "jackdbernier/mockery"
-  },
-  "devDependencies": {
-    "jasmine-node": "~1.14.3",
-    "mockery": "~1.4.0"
-  },
-  "scripts": {
-    "test": "./node_modules/jasmine-node/bin/jasmine-node spec/"
-  },
-  "main": "src/phantom-html-snapshot.js",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jackdbernier/phantom-html-snapshot.git"
-  },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "http://github.com/jackdbernier/phantom-html-snapshot/raw/master/LICENSE"
-    }
-  ]
+    "name": "phantom-html-snapshot",
+    "description": "Express HTML snapshots middleware",
+    "version": "0.0.3",
+    "maintainers": [
+        {
+            "name": "Jacques-Olivier D. Bernier",
+            "url": "https://github.com/jackdbernier"
+        }
+    ],
+    "contributors": [],
+    "keywords": [
+        "html snapshot",
+        "phantom"
+    ],
+    "dependencies": {
+        "validator": "~3.10.0",
+        "phantomjs": "~1.9.7-4"
+    },
+    "devDependencies": {
+        "jasmine-node": "~1.14.3",
+        "mockery": "jackdbernier/mockery"
+    },
+    "scripts": {
+        "test": "./node_modules/jasmine-node/bin/jasmine-node spec/"
+    },
+    "main": "src/phantom-html-snapshot.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jackdbernier/phantom-html-snapshot.git"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "http://github.com/jackdbernier/phantom-html-snapshot/raw/master/LICENSE"
+        }
+    ]
 }
