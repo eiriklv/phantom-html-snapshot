@@ -1,7 +1,7 @@
 {
     "name": "phantom-html-snapshot",
     "description": "HTML snapshot utility based on phantom.js",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "maintainers": [
         {
             "name": "Jacques-Olivier D. Bernier",
